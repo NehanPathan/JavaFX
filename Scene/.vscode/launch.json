@@ -4,28 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "Stage_a5239aa4"
-        },
-        {
-            "type": "java",
-            "name": "App_JavaFXStage",
-            "request": "launch",
-            "mainClass": "App_JavaFXStage",
-            "projectName": "JavaFXProjects_a628cb1a"
-        },
-        {
-            "type": "java",
-            "name": "JavaFX_Stage",
-            "request": "launch",
-            "mainClass": "JavaFX_Stage",
-            "projectName": "JavaFXProjects_a628cb1a"
-        },
         {
             "type": "java",
             "name": "Current File",
@@ -37,8 +15,9 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "JavaFXProjects_a628cb1a",
+            "projectName": "Scene_17a2721f",
             "vmArgs": "--module-path \"C:/Users/patha/Downloads/openjfx-22.0.1_windows-x64_bin-sdk/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        
         }
     ]
 }
