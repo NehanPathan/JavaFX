@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <RadioButton fx:id="rbutton1" layoutX="31.0" layoutY="200.0" mnemonicParsing="false" onAction="#getFood" text="WhiteSauce">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="food" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbutton2" layoutX="237.0" layoutY="200.0" mnemonicParsing="false" onAction="#getFood" text="RedSauce" toggleGroup="$food">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbutton3" layoutX="438.0" layoutY="200.0" mnemonicParsing="false" onAction="#getFood" text="PeperSauce" toggleGroup="$food">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="myLabel" alignment="CENTER" layoutY="73.0" prefHeight="18.0" prefWidth="600.0" text="Select The Pasta You Like Most">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
